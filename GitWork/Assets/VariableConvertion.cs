@@ -8,12 +8,17 @@ public class VariableConvertion : MonoBehaviour {
     public int b = 62;
     int c = 0;
 
+    int Add(int left, int right)
+    {
+        return left + right;
+    }
 
-	// Use this for initialization
-	void Start ()
+
+    // Use this for initialization
+    void Start ()
     {
         //Combines a + b to become c
-        c = a + b;
+        c = Add(a, b);
         //Prints the value of c
         Debug.Log(c);
         //Prints the values combined
