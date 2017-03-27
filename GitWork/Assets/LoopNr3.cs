@@ -14,11 +14,11 @@ public class LoopNr3 : MonoBehaviour
     void Start()
     {
         //all five parts of the list
-        list1.Add(1);
         list1.Add(4);
-        list1.Add(69);
         list1.Add(420);
+        list1.Add(1);
         list1.Add(999);
+        list1.Add(69);
         //reverses list1, turning it into list 2 list2
         for (int i = list1.Count - 1; i >= 0; --i)
         {
